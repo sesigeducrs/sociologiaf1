@@ -128,6 +128,72 @@ img {
 	box-shadow: 5px 5px 5px black;
 }
 
+span.legenda {
+	font-size: 0.7em !important;
+	word-break: break-all !important;
+	word-wrap: break-word !important;
+}
+
+p.legenda {
+	font-size: 0.7em !important;
+	word-break: break-all !important;
+	word-wrap: break-word !important;
+}
+
+span.legenda.center {
+	font-size: 0.7em !important;
+	word-break: break-all !important;
+	word-wrap: break-word !important;
+	text-align: center !important;
+}
+
+p.legenda.center {
+	font-size: 0.7em !important;
+	word-break: break-all !important;
+	word-wrap: break-word !important;
+	text-align: center !important;
+}
+
+div.destaque {
+	background-color: #fff;
+	border-radius: 6px;
+	padding: 40px;
+	color: #333;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border: 4px solid #ccc;
+	opacity: 1;
+}
+
+div.destaque blockquote {
+	color: #333;
+	opacity: 1;
+}
+
+div.destaque p, div.destaque h3, div.destaque h4, div.destaque h5, div.destaque h6 {
+	color: #333;
+	opacity: 1;
+}
+
+
+div.destaque blockquote p{
+	color: #333;
+	opacity: 1;
+}
+
+div.video {
+	text-align: center;
+}
+
+div.video iframe {
+	min-width: 300px;
+	min-height: 200px;
+	max-width: 100%;
+	max-height: auto;
+	border-radius: 10px;
+}
+
+
 img.formula {
 
 	position: absolute;
